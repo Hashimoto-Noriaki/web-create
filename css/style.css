@@ -20,3 +20,32 @@ header .container {
     align-items:center;
     padding:20px 0;
 }
+
+header .logo {
+    font-size:30px;
+    font-weight:500;
+}
+
+header ul {
+    display:flex;
+}
+
+header li {
+    font-weight:500;
+    margin-left:50px;
+}
+
+header a ul li {
+    transaction: .3s;
+}
+
+header ul li a:hover {
+    color:blue;
+}
+
+/* スマホ表示の時にメニューが出ているためメニューを消すためにメディアクエリを入れる */
+@media screen and (max-width:767px) {
+    header nav {
+        display:none;
+    }
+}
