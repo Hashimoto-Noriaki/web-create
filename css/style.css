@@ -86,3 +86,16 @@ header ul li a:hover {
     font-size:48px;
     font-weight:700;
 }
+
+/* スマホ表示の時にメニューが出ているためメニューを消すためにメディアクエリを入れる */
+@media screen and (max-width:767px) {
+    #main-visual .box {
+    left:6%;
+    }
+    #main-visual .heading{
+        font-size:16px;
+    }
+    #main-visual h1{
+        font-size:34px;
+    }
+}
