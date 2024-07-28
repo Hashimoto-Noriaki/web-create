@@ -49,6 +49,43 @@ header ul li a:hover {
     }
 }
 
+/* 共通 */
+.container {
+    width:90%;
+    max-width:1140px;
+    margin: 0 auto;
+}
+.section {
+    padding:60px 0;
+}
+
+.en {
+    font-size:40px;
+    font-weight:500;
+    color:#156ac9;
+    margin-bottom:30px;
+}
+
+.text {
+    font-size:14px;
+    line-height:2;
+}
+
+.button {
+    display:inline-block;
+    border:solid 1px #eeeeee;
+    background-color:#ffffff;
+    padding:16px 40px;
+    border-radius:100px;
+    font-size:13px;
+    font-weight:500;
+    trasition:.3s;
+}
+
+.button:hover{
+    border-color:#156ac9;
+}
+
 /* メインビジュアル */
 #main-visual{
     position:relative;
@@ -98,4 +135,33 @@ header ul li a:hover {
     #main-visual h1{
         font-size:34px;
     }
+}
+
+#top-about{
+    position:relative;
+    overflow:hidden;
+}
+
+#top-about::before{
+    content:'MARKETING';
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%);
+    font-size:260px;
+    letter-spacing: -6p;
+    color:#f9f9f9;
+    font-weight:900;
+    z-index: -1;
+}
+
+#top-about h2 {
+    font-size:30px;
+    font-weight:500;
+    line-height:1.6;
+    margin-bottom:40px;
+}
+
+#top-about .text {
+    margin-bottom:40px;
 }
