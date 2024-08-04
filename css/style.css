@@ -86,6 +86,17 @@ header ul li a:hover {
     border-color:#156ac9;
 }
 
+@media screen and (max-width:767px){
+    .section {
+        padding{
+            padding:30px 0;
+        }
+    }
+    .en {
+        font-size:30px;
+    }
+}
+
 /* メインビジュアル */
 #main-visual{
     position:relative;
@@ -164,4 +175,13 @@ header ul li a:hover {
 
 #top-about .text {
     margin-bottom:40px;
+}
+
+@media screen and (max-width:767px) {
+    #top-about::before{
+        font-size:80px;
+    }
+    #top-about h2{
+        font-size:18px;
+    }
 }
