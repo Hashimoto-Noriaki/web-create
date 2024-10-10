@@ -1,5 +1,6 @@
 body {
     font-family: "Noto Sans JP", sans-serif;
+    color:#323538;
 }
 
 /*ヘッダー*/
@@ -84,6 +85,10 @@ header ul li a:hover {
 
 .button:hover{
     border-color:#156ac9;
+}
+.row {
+    display:flex;
+    justify-content:space-between;
 }
 
 @media screen and (max-width:767px){
@@ -185,3 +190,48 @@ header ul li a:hover {
         font-size:18px;
     }
 }
+
+#top-service {
+    background-color:#156ac9;
+    border-radius:20px;
+    color:#ffffff;
+}
+#top-service h2 {
+    color:#ffffff;
+}
+#top-service .text {
+    margin-bottom:60px;
+}
+
+#top-service .row {
+    margin-bottom:30px;
+}
+
+#top-service .col {
+    width: 32%;
+    background-color:#0d62c2;
+    border-radius:16px;
+    padding:30px 20px;
+    text-align:center;
+}
+
+#top-service img {
+    height:80px;
+    margin-bottom:20px;
+}
+
+#top-service h3 {
+    font-weight:500;
+    margin-bottom:16px;
+}
+
+#top-service .text2 {
+    font-size:13px;
+    text-align:left;
+    line-height:1.6;
+}
+
+#top-service .button_box {
+    text-align:center;
+    color:#323538;
+} 
